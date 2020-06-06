@@ -1,0 +1,20 @@
+<ion-split-pane contentId="content">
+
+  <ion-menu contentId="content">  
+    <ion-content>
+      <ion-list>
+        <ion-list-header class="titulo">MENÚ</ion-list-header>
+        <ion-menu-toggle auto-hide="false" *ngFor="let mp of menuPages | async">
+          <ion-item [routerLink]="['/menu' + mp.url]" lines="none">
+            <ion-icon slot="start" [name]="mp.icon"></ion-icon>
+            <ion-label class="contenido-titulo">{{mp.name}}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  
+  </ion-menu>
+
+  <ion-router-outlet id="content" main></ion-router-outlet>
+
+  </ion-split-pane>

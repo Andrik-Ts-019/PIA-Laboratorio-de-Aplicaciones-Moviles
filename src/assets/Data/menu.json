@@ -1,0 +1,27 @@
+[
+    {
+      "name": "INICIO",
+      "icon": "home",
+      "url": "/inicio"
+    },
+    {
+      "name": "PRODUCTOS",
+      "icon": "nutrition",
+      "url": "/productos"
+    },
+    {
+      "name": "COMPAÑÍA",  
+      "icon": "briefcase",
+      "url": "/compania"
+    },
+    {
+      "name": "CONTACTO",
+      "icon": "people",
+      "url": "/contacto"
+    },
+    {
+      "name": "Registro",
+      "icon": "person-circle-outline",
+      "url": "/registro"
+    }
+  ]

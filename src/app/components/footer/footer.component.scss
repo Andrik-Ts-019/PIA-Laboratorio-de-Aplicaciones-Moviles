@@ -1,0 +1,28 @@
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(94, 163, 253);
+}
+
+.lines{
+    border-style: none solid none solid;
+}
+
+ion-col {
+    text-align: center;
+    color: white;
+    height: 100%;
+    border-width: 1px;
+}
+
+ion-row{
+    justify-content: center;
+    align-items: center;
+}
+
+ion-grid {
+    background: black;
+}

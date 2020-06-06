@@ -1,0 +1,20 @@
+#contenedor-video {
+    max-width: 602.6px;
+    max-height: 400px;
+}
+
+div {
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: transparentize($color: #000000, $amount: 0);
+    display: none;
+  }
+    
+#imagen-video:hover + div {
+    display: block;
+}
+
+ion-row{
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="registrationForm" ngSubmit="submit()">
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input formControlName="name" autocapitalize type="text"></ion-input>
+      </ion-item>
+
+      <div *ngFor="let error of errorMessages.name">
+        <ng-container *ngIf="name.hasError(error.type) && (name.dirty || name.touched)">
+              
+        </ng-container>
+      </div>
+
+      <ion-item>
+        <ion-label position="floating">Telefono</ion-label>
+        <ion-input formControlName="phone" autocapitalize type="tel"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input formControlName="email" autocapitalize type="email"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-list formGroupName="address">
+      <ion-list-header>
+        <ion-label>Direccion</ion-label>
+      </ion-list-header>
+      
+      <ion-item>
+        <ion-label position="floating">Calle</ion-label>
+        <ion-input formControlName="street"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Ciudad</ion-label>
+        <ion-input formControlName="city"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Estado</ion-label>
+        <ion-input formControlName="state"></ion-input>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-label position="floating">Codigo Postal</ion-label>
+        <ion-input formControlName="zip"></ion-input>
+      </ion-item>
+
+
+      <ion-button [disabled]="!registrationForm.valid" expand="block" type="submit">
+        Registrarse
+        <ion-icon slot="end" name="create"></ion-icon>
+      </ion-button>
+    </ion-list>
+  </form>
+</ion-content>
