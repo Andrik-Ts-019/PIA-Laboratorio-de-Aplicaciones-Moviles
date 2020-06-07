@@ -11,3 +11,9 @@ export interface Marker {
     };
     title: string;
 }
+
+export interface product {
+    product: string;
+    imgURL: string;
+    sound: string;
+}
