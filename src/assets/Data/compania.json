@@ -1,0 +1,20 @@
+[
+    {
+      "section": "MISIÓN",
+      "icon": "golf-outline",
+      "image": "assets/mision.jpg",
+      "description": "Producir los mejores productos con la mejor calidad y con el menor uso posible de sustancias no orgánicas ni naturales para que la población consuma alimentos que no dañen su salud. Ser responsable con el medio ambiente y los animales que lo habitan, disminuyendo el impacto ecológico al plantar nuestros productos y abrir nuevos huertos.\n\nColaborar con la Sociedad Mexicana de Nutrición para que en un futuro nadie termine el día sin comer tres veces al día."
+    },
+    {
+      "section": "VISIÓN",
+      "icon": "bar-chart-outline",
+      "image": "assets/vision.jpg",
+      "description": "La compañia Cosechas Beto es la empresa lider a nivel mundial en la cosecha de diversos productos, como el melón, frijol, maíz y sandía, y referente mundial en el empleo de técnicas que disminuyen al máximo el impacto ambiental en el suelo y agua.\n\nLa compañía se expande abriendo nuevos huertos en diversos estados además de abrir comedores comunitarios para disminuir la hambruna en las poblaciones más vulnerables del país."
+    },
+    {
+      "section": "HISTORIA",
+      "icon": "trail-sign-outline",
+      "image": "assets/historia.jpg",
+      "description": "Hace más de 50 años, el 30 de marzo de 1970, Don Estanislao Elano Martinez Huerta, se propuso a formalizar su fruteria, el cuál surtía el mismo gracias a un pequeño terreno que le pertenecía en donde plantaba diversas frutas y verduras, principalmente frijol. Esa frutería se llamaba \"Cosechas Beto\" (Beto era el apodo que le dieron a Estanislao de cariño).\n\nTanta dedicación y amor a su trabajo dieron sus frutos, en 1990 a la edad de 80 años pudo aquirir un gran huerto donde poder producir una cierta cantidad de productos necesaria como para poder proveer a otras fruterias del estado. Lamentablemente Don Beto falleció en el año 2005, un año después Cosechas Don Beto adquiriría su segundo huerto donde seguir plantando sus productos; ya para el año 2010 Cosechas Don Beto era proveedor de diversas tiendas a lo largo del país."
+    }
+  ]
