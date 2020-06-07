@@ -2,31 +2,37 @@
     {
         "product": "Frijol",
         "imgURL": "assets/galeria/6.png",
-        "sound": "assets/frijol.mp3"
+        "sound": "assets/frijol.mp3",
+        "description": "Los frijoles son las semillas contenidas en la vaina de la planta que pertenece al género Phaseolus. Corresponden a la familia de las leguminosas junto con la soya, el chícharo, la lenteja, el garbanzo, las habas y las alubias.\nLos frijoles y otras leguminosas ayudan a bajar los niveles del colesterol “malo” (LDL) en tu cuerpo, consumirlos a diario, beneficiará en gran medida a reducir estos niveles."
     },
     {
         "product": "Sandía",
         "imgURL": "assets/galeria/5.png",
-        "sound": "assets/sandia.mp3"
+        "sound": "assets/sandia.mp3",
+        "description": "La sandía es un fruto grande y de forma más o menos esférica que suele consumirse cruda como postre. Su pulpa es de color rojizo o amarillento y de sabor dulce. Resulta un alimento muy refrescante que aporta muy pocas calorías al organismo.\nEs técnicamente una fruta y un vegetal y es originaria de África."
     },
     {
         "product": "Papa",
         "imgURL": "assets/galeria/4.png",
-        "sound": "assets/papa.mp3"
+        "sound": "assets/papa.mp3",
+        "description": "Es un tubérculo producido por una planta que se denomina Solanum tuberosum. Tiene su origen en Sudamérica y se expandió en el mundo a partir de la llegada de los españoles a América.\nComer una patata mediana con piel aporta cerca de la mitad de la ingesta diaria recomendada de vitamina C y una quinta parte del valor recomendado diario de potasio.\nNo se deben dar patatas a los caballos. Son tóxicas para ellos"
     },
     {
         "product": "Melón",
         "imgURL": "assets/galeria/3.png",
-        "sound": "assets/melon.mp3"
+        "sound": "assets/melon.mp3",
+        "description": "El melón es el fruto de una planta trepadora (melonera) de la familia de las Cucurbitáceas (Cucumis melo). El tallo está cubierto de pelos y también las hojas por el envés. Éstas tienen un aspecto palmeado, con los márgenes dentados.\nEl hecho de que todos nuestros melones tengan un olor muy fuerte es que estan maduras y dulces, así que cuando vayas al supermercado elige el melón con el olor más fuerte."
     },
     {
         "product": "Maíz",
         "imgURL": "assets/galeria/2.png",
-        "sound": "assets/maiz.mp3"
+        "sound": "assets/maiz.mp3",
+        "description": "El maíz o zea mays es un cereal, una planta gramínea americana, que se caracteriza por tener tallos largos y macizos al final de los cuales se dan espigas o mazorcas, con sus semillas o granos de maíz dispuestos a lo largo de su eje.\nInvestigadores mexicanos realizan estudios para comprobar las propiedades anticancerígenas del maíz azul, ya que éste goza de alta cantidad de antiocianinas."
     },
     {
         "product": "Naranja",
         "imgURL": "assets/galeria/1.png",
-        "sound": "assets/naranja.mp3"
+        "sound": "assets/naranja.mp3",
+        "description": "La naranja es una fruta cítrica obtenida del naranjo dulce, del naranjo amargo y de naranjos de otras variedades o híbridos, de origen asiático.\nEn el jugo de naranja, así como todos los demás jugos de cítricos, encontrarás sustancias conocidas como limonoides, que ayudan a combatir el cáncer."
     }
 ]

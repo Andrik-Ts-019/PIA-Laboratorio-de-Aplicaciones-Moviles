@@ -16,4 +16,5 @@ export interface product {
     product: string;
     imgURL: string;
     sound: string;
+    description: string;
 }

@@ -4,17 +4,16 @@
 
   <ion-grid>
     <ion-row>
-      <ion-col *ngFor="let p of products | async" size="6">
+      <ion-col *ngFor="let p of products | async" size="12">
 
         <ion-card (click)="sonido_desproducto(p)">
-          <ion-img src="/assets/headerProductos.png"></ion-img>
           <ion-img [src]="p.imgURL"></ion-img>
           <ion-card-header>
             <ion-card-title>{{p.product}}</ion-card-title>
           </ion-card-header>
 
           <ion-card-content>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iste eligendi alias a ducimus voluptatum harum, laboriosam nihil excepturi accusantium! Nemo animi aliquid totam fugit ipsum ea. Tenetur, sit incidunt!
+            {{p.description}}
           </ion-card-content>
 
         </ion-card>
