@@ -19,21 +19,4 @@ import { ComponentsModule } from 'src/app/components/components.module';
   ],
   declarations: [ProductosPage]
 })
-export class ProductosPageModule {
-
-  sliderOpts = {
-    zoom: false,
-    slidesPerView: 1.5,
-    centeredSlides: true,
-    spaceBetween: 20
-  };
-
-  constructor(private modalController: ModalController){
-
-  }
-
-  openPreview(){
-
-  }
-
-}
+export class ProductosPageModule {}
