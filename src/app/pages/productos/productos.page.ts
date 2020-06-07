@@ -12,6 +12,13 @@ export class ProductosPage implements OnInit {
 
   public products: Observable<product[]>;
 
+  sonido_desproducto(products) {
+    let sonido = new Audio;
+    sonido.src = products.sound;
+    sonido.load();
+    sonido.play();
+  }
+
   constructor( private dataService: DataService ) { }
 
   ngOnInit() {

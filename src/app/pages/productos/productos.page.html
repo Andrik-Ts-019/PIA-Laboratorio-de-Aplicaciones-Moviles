@@ -6,7 +6,7 @@
     <ion-row>
       <ion-col *ngFor="let p of products | async" size="6">
 
-        <ion-card>
+        <ion-card (click)="sonido_desproducto(p)">
           <ion-img src="/assets/headerProductos.png"></ion-img>
           <ion-img [src]="p.imgURL"></ion-img>
           <ion-card-header>
