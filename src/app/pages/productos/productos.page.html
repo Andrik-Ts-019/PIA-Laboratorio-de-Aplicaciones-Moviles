@@ -2,25 +2,21 @@
 
 <ion-content>
 
-  <ion-grid>
-    <ion-row>
-      <ion-col *ngFor="let p of products | async" size="12">
+  <ion-slides pager="true">
+    <ion-slide *ngFor="let p of products | async">
 
-        <ion-card (click)="sonido_desproducto(p)">
-          <ion-img [src]="p.imgURL"></ion-img>
-          <ion-card-header>
-            <ion-card-title>{{p.product}}</ion-card-title>
-          </ion-card-header>
+      <ion-card (click)="sonido_desproducto(p)">
+        <ion-img [src]="p.imgURL"></ion-img>
+        <ion-card-header>
+          <ion-card-title>{{p.product}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{p.description}}
+        </ion-card-content>
+      </ion-card>
 
-          <ion-card-content>
-            {{p.description}}
-          </ion-card-content>
-
-        </ion-card>
-
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+    </ion-slide>
+  </ion-slides>
 
   <app-footer></app-footer>
 </ion-content>
