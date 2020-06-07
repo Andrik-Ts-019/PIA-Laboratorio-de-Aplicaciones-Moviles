@@ -18,3 +18,10 @@ export interface product {
     sound: string;
     description: string;
 }
+
+export interface compania {
+    section: string;
+    icon: string;
+    image: string;
+    description: string;
+}

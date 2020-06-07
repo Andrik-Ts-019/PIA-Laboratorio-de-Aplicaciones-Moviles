@@ -1,14 +1,25 @@
 <app-header titulo="COMPAÑÍA"></app-header>
 
 <ion-content>
-  <ion-text>Estoy en compañía</ion-text>
-  <!--
-  <ion-slides [options]="sliderOpts">
-    <ion-slide *ngFor="let galeria of [1, 2, 3, 4]">
-      <img src="assets/galeria/{{ galeria }}.png" tappable (click)="openPreview(galeria)">
+  <ion-img alt="imagen_Compañía" src="assets/agriculturaPanoramica.jpg"></ion-img>
 
-    </ion-slide>
-  </ion-slides>
-  -->
-  <app-footer></app-footer>
+  <ion-card *ngFor="let c of company | async">
+
+    <ion-card-header>
+      <ion-item>
+
+        <ion-icon [name]="c.icon" slot="end"></ion-icon>
+        <ion-title>{{c.section}}</ion-title>
+
+      </ion-item>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{c.description}}
+    </ion-card-content>
+    <img [src]="c.image" class="dimImagen"/>
+  </ion-card>
+  
 </ion-content>
+
+<app-footer></app-footer>
