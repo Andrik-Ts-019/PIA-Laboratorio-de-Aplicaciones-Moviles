@@ -4,12 +4,13 @@
 
   <ion-grid>
     <ion-row>
-      <ion-col>
+      <ion-col *ngFor="let p of products | async" size="6">
 
         <ion-card>
           <ion-img src="/assets/headerProductos.png"></ion-img>
+          <ion-img [src]="p.imgURL"></ion-img>
           <ion-card-header>
-            <ion-card-title>Producto</ion-card-title>
+            <ion-card-title>{{p.product}}</ion-card-title>
           </ion-card-header>
 
           <ion-card-content>

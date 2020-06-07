@@ -1,32 +1,32 @@
 [
     {
         "product": "Frijol",
-        "imgURL": "assets/6.png",
+        "imgURL": "assets/galeria/6.png",
         "sound": "assets/frijol.mp3"
     },
     {
         "product": "Sandía",
-        "imgURL": "assets/5.png",
+        "imgURL": "assets/galeria/5.png",
         "sound": "assets/sandia.mp3"
     },
     {
         "product": "Papa",
-        "imgURL": "assets/4.png",
+        "imgURL": "assets/galeria/4.png",
         "sound": "assets/papa.mp3"
     },
     {
         "product": "Melón",
-        "imgURL": "assets/3.png",
+        "imgURL": "assets/galeria/3.png",
         "sound": "assets/melon.mp3"
     },
     {
         "product": "Maíz",
-        "imgURL": "assets/2.png",
+        "imgURL": "assets/galeria/2.png",
         "sound": "assets/maiz.mp3"
     },
     {
         "product": "Naranja",
-        "imgURL": "assets/1.png",
+        "imgURL": "assets/galeria/1.png",
         "sound": "assets/naranja.mp3"
     }
 ]
