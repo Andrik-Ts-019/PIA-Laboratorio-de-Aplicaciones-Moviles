@@ -11,7 +11,7 @@ export class InicioPage implements OnInit {
 
   constructor( private modalCtrl: ModalController ) { }
 
-  public videoUrl: string = 'https://www.youtube.com/embed/2MpUj-Aua48';
+  public videoUrl: string = 'https://www.youtube.com/embed/BtMbBKeYJuU';
 
   async mostrarvideo(value) {
     const modal = await this.modalCtrl.create({
