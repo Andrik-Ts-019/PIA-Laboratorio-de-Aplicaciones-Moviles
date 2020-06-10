@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { RegistroPageRoutingModule } from './registro-routing.module';
-
+import { ComponentsModule } from 'src/app/components/components.module';
 import { RegistroPage } from './registro.page';
 
 
@@ -15,7 +15,8 @@ import { RegistroPage } from './registro.page';
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
-    RegistroPageRoutingModule
+    RegistroPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [RegistroPage]
 })
